@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "amazon-clone",
-    "slug": "amazon-clone",
+    "name": "Amazon-UIClone",
+    "slug": "rnamazonclone",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/amazon.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
-      "resizeMode": "contain",
+      "resizeMode": "cover",
       "backgroundColor": "#ffffff"
     },
     "assetBundlePatterns": [
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.deepbb.rnamazonclone"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "95bde388-bd33-468c-b6db-d648b071b8a3"
+      }
     }
   }
 }
